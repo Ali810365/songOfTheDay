@@ -103,7 +103,7 @@ switch(intDay){
 
         returnData = {
             img: 'profile/zedd.jpeg',
-            alt: 'Picture of Avicii',
+            alt: 'Picture of Zedd',
             artistName: 'Zedd',
             name: 'Anton Zaslavski',
             bio: 'Known professionally as Zedd, is a Russian-German DJ and music producer. Zedd grew up and began his musical journey in Kaiserslautern, Germany. His stage name, Zedd, was derived from zed, the English pronunciation, barring American English, for the first letter of his surname, Z.',
@@ -116,6 +116,18 @@ switch(intDay){
 
     case 4: 
         today = weekdayArray[4];
+
+        returnData = {
+            img: 'profile/justin.jpg',
+            alt: 'Picture of Justin Bieber',
+            artistName: 'Justin Bieber',
+            name: 'Justin Drew Bieber',
+            bio: 'Justin Drew Bieber is a Canadian singer. Bieber is widely recognised for his genre-melding musicianship and has played an influential role in modern-day popular music.',
+            wikipedia: 'https://en.wikipedia.org/wiki/Justin_Bieber',
+            video: 'videos/JustinBieberGhost.mp4',
+            button: 'Justin Bieber - Ghost'
+        };
+
 
     break;
 
