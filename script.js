@@ -101,6 +101,17 @@ switch(intDay){
     case 3: 
         today = weekdayArray[3];
 
+        returnData = {
+            img: 'profile/zedd.jpeg',
+            alt: 'Picture of Avicii',
+            artistName: 'Zedd',
+            name: 'Anton Zaslavski',
+            bio: 'Known professionally as Zedd, is a Russian-German DJ and music producer. Zedd grew up and began his musical journey in Kaiserslautern, Germany. His stage name, Zedd, was derived from zed, the English pronunciation, barring American English, for the first letter of his surname, Z.',
+            wikipedia: 'https://en.wikipedia.org/wiki/Zedd',
+            video: 'videos/ZeddHappyNow.mp4',
+            button: 'Zedd, Elley Duhé - Happy Now'
+        };
+
     break;
 
     case 4: 
