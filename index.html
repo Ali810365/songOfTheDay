@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,82 @@
     <title>Song of The Day</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="buttons">
-        <button id= "morningBtn" class="morningBtn">Morning</button>
-        <button id= "afternoonBtn" class="morningBtn">Afternoon</button>
-        <button id= "eveningBtn" class="morningBtn">Evening</button>
-        <button id= "nightBtn" class="morningBtn">Night</button>
-        <button id= "revert" class="morningBtn">Back to Live</button>
-    
+        <button><a href="index.html?day=0">Sunday</a></button>
+        <button><a href="index.html?day=1">Monday</a></button>
+        <button><a href="index.html?day=2">Tuesday</a></button>
+        <button><a href="index.html?day=3">Wednesday</a></button>
+        <button><a href="index.html?day=4">Thursday</a></button>
+        <button><a href="index.html?day=5">Friday</a></button>
+        <button><a href="index.html?day=6">Saturday</a></button>
+        
+
+
+
     </div>
-    
-        <div class="clock">
-    
-            <button id="weekday">Monday</button>
-            <button id="month">July</button>
-            <button id="day">15</button>
-    
-            <div class="timer">
-                <button id="timer">05 : 55 : 23</button>
-            </div>
-    
-        </div>
-    
-        <div id="container" class="container">
-            <div class="topcell">
-            <div class="artist"></div>
-            <div class="aboutArtist"></div>
-            <div class="song"></div>
-            </div>
 
-            <div class="videoContainer">
-                <div class="video">
-                    <video width="640" height="360" controls> 
-                        <source src="videos/aviciiTheNights.mp4" type="video/mp4">
-                    </video>
+    <div class="clock">
+
+        <button id="weekday">Monday</button>
+        <button id="month">July</button>
+        <button id="day">15</button>
+
+        <div class="timer">
+            <button id="highlight">Today's Feature | Avicii - Song: The Nights</button>
+        </div>
+
+    </div>
+
+    <div id="container" class="container">
+        <!--
+        <div class="row">
+            
+            <div class="column">
+                <div class="card">
+                    <img src="profile/Avicii.jpg" alt="">
+                
+
+                <div class="cardContainer">
+                    <h2 id="artistName">Avicii</h2>
+                    <p id="name">Tim Bergling</p>
+                    <p id="bio"></p>
+
+                    <button><a href="">Wikipedia</a></button>
                 </div>
-            </div>
-        </div>
-    
-        <div id="footer" class="footer">
-            © 2021-2022
-        </div>
-    
-    
-        <script src="script.js"></script>
-</body>
-</html>
 
+            </div>
+
+
+
+        </div>
+
+
+
+        
+    </div>
+
+    <div class="video">
+        <div class="videoCard">
+            <video width="515"  controls>
+                <source src="videos/aviciiTheNights.mp4" type="video/mp4">
+                
+              </video>
+
+              <button>Avicii - The Nights</button>
+        </div>
+    </div>
+    -->
+    </div>
+
+
+    <div id="footer" class="footer">
+        © 2021-2022
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
