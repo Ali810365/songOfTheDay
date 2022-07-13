@@ -42,9 +42,15 @@
     width: 80%;
     height: 852px;
     margin: auto;
-   
+    
    
   
+}
+
+.photo{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
 }
 
 .row{
@@ -72,13 +78,25 @@
 
 .videoCard button{
     border: none;
-
     padding: 8px;
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
     
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.cardContainer a{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+   
+    display: block;
 }
 
 .card img{
@@ -92,7 +110,7 @@
 }
 
 #artistName{
-    margin-bottom: 5px;
+    margin: 5px ;
 }
 
 #name{
@@ -100,8 +118,19 @@
     color: grey;
 }
 
-.cardContainer {
+#bio{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    font-family:monospace;
+}
+
+.cardContainer p, .container h2 {
     padding: 0 16px;
+  }
+
+.cardContainer{
+    overflow: hidden;
   }
 
 .cardContainer::after, .container::after {
@@ -113,7 +142,7 @@
 .cardContainer button{
     border: none;
     outline: 0;
-    display: inline-block;
+    display: block;
     padding: 8px;
     color: white;
     background-color: #000;
@@ -126,6 +155,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.video button{
+    font-size: 20px;;
 }
 
 /* footer */
